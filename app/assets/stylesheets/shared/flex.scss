@@ -1,2 +1,35 @@
 .flx {
+    display: flex;
+
+    &-jc {
+        justify-content: center;
+
+        &-rnd {
+            justify-content: around;
+        }
+
+        &-btn {
+            justify-content: between
+        }
+
+        &-left {
+            justify-content: left;
+        }
+
+        &-right {
+            justify-content: right;
+        }
+    }
+
+    &-ai {
+        align-items: center;
+
+        &-top {
+            align-items: top;
+        }
+
+        &-bottom {
+            align-items: bottom;
+        }
+    }
 }

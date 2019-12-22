@@ -1,0 +1,32 @@
+.txt {
+    /*Colors*/
+    &-black {
+        color: #272727;
+    }
+
+    &-white {
+        color: #DADADA;
+    }
+
+    /*size*/
+    &-big {
+        font-size: 32px;
+    }
+
+    &-medium {
+        font-size: 24px;
+    }
+
+    &-small {
+        font-size: 16px;
+    }
+
+    &-minimal {
+        font-size: 8px;
+    }
+
+    /*family*/
+    &-roboto {
+        font-family: 'Roboto';
+     }
+}
