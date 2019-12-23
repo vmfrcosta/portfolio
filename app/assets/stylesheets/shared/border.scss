@@ -1,0 +1,11 @@
+.brd {
+    border: #272727 solid 1px;
+
+    &-b {
+        border-bottom: #272727 solid 1px;
+    }
+
+    &-t {
+         border-top: #272727 solid 1px;
+    }
+}
