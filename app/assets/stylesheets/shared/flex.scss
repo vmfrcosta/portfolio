@@ -5,11 +5,11 @@
         justify-content: center;
 
         &-rnd {
-            justify-content: around;
+            justify-content: space-around;
         }
 
         &-btn {
-            justify-content: between
+            justify-content: space-between;
         }
 
         &-left {
@@ -32,4 +32,8 @@
             align-items: bottom;
         }
     }
+
+    &-drc {
+        flex-direction: column;
+     }
 }
